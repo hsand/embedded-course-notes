@@ -28,6 +28,16 @@ Access UART terminal (Exit with `CTRL+]`)
 idf.py monitor
 ```
 
+## minicom
+
+Use dmesg to find port
+
+```
+sudo apt install minicom
+sudo dmesg
+sudo minicom -D /dev/ttyUSB0 -b 115200
+```
+
 ## Flashrom
 
 Install
