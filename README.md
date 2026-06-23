@@ -23,11 +23,6 @@ Dump flash
 esptool read-flash 0x0 ALL esptool-dump.bin
 ```
 
-Access UART terminal (Exit with `CTRL+]`)
-```
-idf.py monitor
-```
-
 ## minicom
 
 Use dmesg to find port
