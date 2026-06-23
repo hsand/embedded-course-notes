@@ -1,3 +1,7 @@
+# Microsoldering basics and tools
+
+- https://www.youtube.com/@nanofixca
+
 # Tool installation and basic use
 
 ## ESP-IDF
