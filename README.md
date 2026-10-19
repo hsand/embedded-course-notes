@@ -66,7 +66,3 @@ Get general image info
 source ~/.espressif/tools/activate_idf_v6.0.1.sh
 esptool --chip esp32c6 image-info dump.bin
 ```
-
-File Offset: 0xc600c
-Permissions: Read + Write + Execute
-```
