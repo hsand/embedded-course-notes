@@ -23,7 +23,7 @@ dd if=dump.bin of=app.bin bs=4096 skip=16      # 16 * 4096 = 0x10000
 The app is not one flat blob. It is made of segments, and each one is loaded at a different address. esptool lists them:
 
 ```
-esptool --chip esp32c6 image-info app.bin
+esptool --chip esp32c6 image_info app.bin
 ```
 
 ```
